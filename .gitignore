@@ -1,0 +1,29 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit local configuration and cache
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+.streamlit/cache/
+
+# Generated model artifacts
+models/*.pkl
+models/*.joblib
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and coverage outputs
+.pytest_cache/
+.coverage
+htmlcov/
